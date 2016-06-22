@@ -7,7 +7,7 @@ export function configure(aurelia: Aurelia) {
     .standardConfiguration()
     .developmentLogging();
 
-  aurelia.use.plugin('benlaan/aurelia-bootstrap');
+  aurelia.use.plugin('benlaan/aurelia-bootstrap-plugin');
 
   aurelia.start().then(() => aurelia.setRoot());
 }
