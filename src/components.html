@@ -1,6 +1,126 @@
 <template>
 
   <hr />
+  <h2>List Group</h2>
+
+  <bs-list-group items.bind="listItems"></bs-list-group>
+
+  <bs-list-group>
+      <bs-list-group-item>
+        <p>
+            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
+            <br />
+            at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+        </p>
+      </bs-list-group-item>
+      <bs-list-group-item>
+        <p>
+            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
+            <br />
+            at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+        </p>
+      </bs-list-group-item>
+  </bs-list-group>
+
+  <hr />
+  <h2>Responsive Embed</h2>
+
+  <bs-responsive-embed source="https://www.youtube.com/v/m40ceh2A54o" aspect-ratio="16by9"></bs-responsive-embed>
+
+  <hr />
+  <h2>Well</h2>
+
+  <bs-well>
+      <p>
+        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
+        <br />
+        at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+      </p>
+  </bs-well>
+
+  <hr />
+  <h2>Media Object</h2>
+
+  <bs-media-object direction="left" image-source="/styles/media.svg" image-alt-text="media object 1" heading="Media Object 1">
+      <p>
+        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
+        <br />
+        at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+      </p>
+  </bs-media-object>
+  <bs-media-object direction="right" alignment="top" image-source="/styles/media.svg" image-alt-text="media object 2" heading="Media Object 2">
+      <p>
+        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
+        <br />
+        at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+      </p>
+  </bs-media-object>
+  <bs-media-object direction="left" image-source="/styles/media.svg" image-alt-text="media object 3" heading="Media Object 3">
+      <p>
+        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
+        <br />
+        at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+      </p>
+  </bs-media-object>
+
+  <hr />
+  <h2>Progress Bar</h2>
+
+  <bs-progress-bar progress="22"></bs-progress-bar>
+  <bs-progress-bar progress="50" style="danger"></bs-progress-bar>
+  <bs-progress-bar progress="74" striped="true"></bs-progress-bar>
+  <bs-progress-bar progress="92" style="warning" active="true"></bs-progress-bar>
+
+  <bs-progress-bar min="10" max="20" progress="17"></bs-progress-bar>
+
+  <hr />
+  <h2>Basic Thumbnail</h2>
+
+  <div class="row">
+    <bs-thumbnail md-width="3" image-source="/styles/sample.svg" image-alt-text="a document" link="#/click.me?1"></bs-thumbnail>
+    <bs-thumbnail md-width="3" image-source="/styles/sample.svg" image-alt-text="a document" link="#/click.me?2"></bs-thumbnail>
+    <bs-thumbnail md-width="3" image-source="/styles/sample.svg" image-alt-text="a document" link="#/click.me?3"></bs-thumbnail>
+    <bs-thumbnail md-width="3" image-source="/styles/sample.svg" image-alt-text="a document" link="#/click.me?3"></bs-thumbnail>
+  </div>
+
+  <hr />
+  <h2>Detail Thumbnail</h2>
+
+  <div class="row">
+    <bs-thumbnail image-source="styles/sample.svg" image-alt-text="a document" lg-width="3">
+        <h3>Thumbnail label</h3>
+        <p>
+            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
+            at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+        </p>
+        <p>
+          <bs-button style="primary">Button</bs-button>
+          <bs-button style="default">Button</bs-button>
+        </p>
+    </bs-thumbnail>
+
+    <bs-thumbnail image-source="styles/sample.svg" image-alt-text="a document" lg-width="3">
+        <h3>Thumbnail label</h3>
+        <p>
+            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
+            at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+        </p>
+        <p>
+          <bs-button style="primary">Button</bs-button>
+          <bs-button style="default">Button</bs-button>
+        </p>
+    </bs-thumbnail>
+  </div>
+
+  <!--
+  <hr />
+  <h2></h2>
+
+  <bs-page-header>
+  </bs-page-header>
+  -->
+
+  <hr />
   <h2>Pagination</h2>
 
   <bs-pagination

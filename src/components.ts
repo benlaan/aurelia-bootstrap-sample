@@ -9,6 +9,9 @@ export class Components {
     @bindable
     public dropDownOptions: Array<any>;
 
+    @bindable
+    public listItems: Array<any>;
+
     constructor() {
 
         this.breadcrumbs = [
@@ -23,6 +26,14 @@ export class Components {
             { label: "Middle", link: "/go-home" },
             { separator: true  },
             { label: "Bottom", link: "#!/home/time" }
+        ]
+
+        this.listItems = [
+
+            "Product 1",
+            "Product 2",
+            "Product 3",
+            "Product 4"
         ]
     }
 }
