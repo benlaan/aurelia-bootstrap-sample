@@ -128,11 +128,6 @@
             "env": "dev"
           },
           {
-            "name": "aurelia-ui-virtualization",
-            "path": "../node_modules/aurelia-ui-virtualization/dist/amd",
-            "main": "aurelia-ui-virtualization"
-          },
-          {
             "name": "aurelia-bootstrap-plugin",
             "path": "../node_modules/aurelia-bootstrap-plugin/dist",
             "main": "index",
