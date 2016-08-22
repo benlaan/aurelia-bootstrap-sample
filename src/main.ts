@@ -20,9 +20,7 @@ export function configure(aurelia: Aurelia) {
   }
 
   aurelia.use
-    .plugin('aurelia-ui-virtualization')
-    .plugin('aurelia-bootstrap-plugin')
-    ;
+    .plugin('aurelia-bootstrap-plugin');
 
   aurelia.start().then(() => aurelia.setRoot());
 }

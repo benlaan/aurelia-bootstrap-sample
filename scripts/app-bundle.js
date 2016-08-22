@@ -86,7 +86,6 @@ define('main',["require", "exports", './environment', 'bootstrap'], function (re
             aurelia.use.developmentLogging();
         }
         aurelia.use
-            .plugin('aurelia-ui-virtualization')
             .plugin('aurelia-bootstrap-plugin');
         aurelia.start().then(function () { return aurelia.setRoot(); });
     }
